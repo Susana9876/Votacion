@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Votación</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style type="text/css">
+    h1{
+        color: brown;
+    }
+    label{
+        color:darkcyan;
+    }
+    .btn{
+        background-color: brown;
+        color: black;
+        
+    }
+    </style>
+  </head>
+  <body>
+      <div class="jumbotron pb-0" id="todo">
+          <h1 id="pregunta"></h1>
+          <p>Vota las veces que quieras dando click en los botones que se muestran enseguida:</p>
+          
+          <div class="d-inline mb-3 mt-5">
+              
+            <button type="button" id="favor_btn" class="btn">A favor</button>
+            <!-- <label class="h5" id="favor_label">0</label> -->
+
+            </div>
+            <div class="d-inline mb-3">
+                <button type="button" id="contra_btn" class="btn">En contra</button>
+                <!-- <label class="h5" id="contra_label">0</label> -->
+            </div>
+
+            <div class="d-inline mb-5">
+              <button type="button" id="abs_btn" class="btn">Abstención</button>
+              <!-- <label class="h5" id="abs_label">0</label> -->
+            </div>
+          
+            
+            <button id="terminar_boton" class="btn float-right"><h6>Terminar votación</h6></button>
+            
+            <div class="d-block mt-5 mb-0">
+
+              <small>Cuando hayas votado da click en el botón de "Terminar votación".</small>
+            </div>
+        </div>
+
+        
+        </div>
+              
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="./js/votos.class.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
